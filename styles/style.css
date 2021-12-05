@@ -27,7 +27,7 @@ nav{
 }
 
 nav a{
-    color: #BAC9C4;
+    color: #67A1E0;
 }
 
 nav a:hover{
@@ -69,12 +69,12 @@ nav a:hover{
     text-align: center;
     padding-left: 1em;
     padding-right: 1em;
-    color: #67A1E0;
+    color: #BAC9C4;
 }
 
 .about-p, .services-p{
     text-align: center;
-    color: #67A1E0;
+    color: #BAC9C4;
 }
 
 .services-img, .about-img{
@@ -83,7 +83,7 @@ nav a:hover{
 
 .about-title, .services-title{
     text-align: center;
-    color: #BAC9C4;
+    color: #67A1E0;
 }
 
 #chairs-msg{
@@ -103,7 +103,7 @@ nav a:hover{
  }
 
  .learn-more {
-     color: #BAC9C4;
+     color: #67A1E0;
  }
 
  .button-box{
@@ -124,9 +124,9 @@ nav a:hover{
 }
 
 .copyright{
-    color: #67A1e0;
+    color: #BAC9C4;
 }
 
 .services-link, .about-link{
-    color: #BAC9C4;
+    color: #67A1E0;
 }
