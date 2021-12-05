@@ -56,6 +56,7 @@ nav a:hover{
 .home-title{
     text-align: center;
     background-color: rgba(255,255,255,.6);
+    color: #3A5A40;
 }
 
 #hero-img{
@@ -95,6 +96,28 @@ nav a:hover{
 .about-img{
     width: 325px;
     grid-column: 2/3;
+}
+
+.chairs-img{
+    border: 10px solid #67A1E0;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #BAC9C4;
+}
+
+.chairs-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.frontyard-img{
+    border: 10px solid #67A1E0;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #BAC9C4;
+}
+
+.frontyard-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 
  .services-img{
