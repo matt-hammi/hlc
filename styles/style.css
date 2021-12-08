@@ -6,6 +6,12 @@ img{
     max-width: 100%
 }
 
+p{
+    max-width: 70ch;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
 header{
     display: grid;
     grid-template-columns: 150px auto;
@@ -152,4 +158,126 @@ nav a:hover{
 
 .services-link, .about-link{
     color: #67A1E0;
+}
+
+#hero-img{
+    width: 100%;
+    height: 400px;      
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-title{
+    text-align: center;
+    background-color: rgba(255,255,255,.6);
+    color: #3A5A40;
+}
+
+.hlc{
+    padding: 1em;
+    background-color: antiquewhite;
+    max-width: 90%;
+    margin: 1em auto;
+}
+
+
+.brooke{
+    display: grid;
+    grid-template-columns: repeat(11, 143px);
+    grid-template-rows: repeat(5, 115px);
+}
+
+#about-img{
+    grid-column: 2/6;
+    grid-row: 1/2;
+    padding: 1em;
+    border: 10px solid #67A1E0;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3A5A40;
+}
+
+.about-p1{
+    grid-column: 5/10;
+    grid-row: 3/5;
+    text-align: center;
+    color: #BAC9C4;
+    background-color: rgba(56,50,53,.6);
+    padding: 1em;
+}
+
+.about-p2{
+    grid-column: 2/11;
+    grid-row: 2/3;
+    color: #BAC9C4;
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(56,50,53,.6);   
+}
+
+.card-img{
+    width: 100%;
+    border: 10px solid #BAC9C4;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #67A1E0;
+}
+
+.service-head{
+    background-color: rgba(255,255,255,.6);
+}
+
+.main-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    background-color: antiquewhite;
+    max-width: 90%;
+    margin: auto;
+    padding: 1em;
+}
+
+/* .lawn-card{
+    grid-column: 1/2;
+    padding-left: 1em;
+}
+
+.snow-card{
+    grid-column: 2/3;
+}
+
+.fall-card{
+    grid-column: 3/4;
+}
+
+.spring-card{
+    grid-column: 7/8;
+}
+
+.fertilizer-card{
+    grid-column: 1/2;
+    padding-left: 1em;
+}
+
+.aerating-card{
+    grid-column: 3/4;
+}
+
+.landscape-card{
+    grid-column: 5/6;
+}
+
+.trees-card{
+    grid-column: 7/8;
+} */
+
+h4{
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }
