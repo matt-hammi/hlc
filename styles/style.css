@@ -106,12 +106,14 @@ nav a:hover{
 .about-img{
     width: 325px;
     grid-column: 2/3;
+    border-radius: 20%;
 }
 
 .chairs-img{
     border: 10px solid #67A1E0;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #BAC9C4;
+    border-radius: 20%;
 }
 
 .chairs-img:hover{
@@ -123,6 +125,7 @@ nav a:hover{
     border: 10px solid #67A1E0;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #BAC9C4;
+    border-radius: 20%;
 }
 
 .frontyard-img:hover{
@@ -203,6 +206,7 @@ nav a:hover{
     border: 10px solid #67A1E0;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #3A5A40;
+    border-radius: 20%;
 }
 
 .about-p1{
