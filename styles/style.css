@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Raleway&display=swap');
+
+:root{
+    --heading-font: "Raleway", Helvetica, sans-serif;
+    --paragraph-font: "Manrope", Helvetica, sans-serif;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -212,7 +220,7 @@ nav a:hover{
 
 .about-p1{
     grid-column: 5/10;
-    grid-row: 3/5;
+    grid-row: 2/5;
     text-align: center;
     color: #BAC9C4;
     background-color: rgba(56,50,53,.6);
