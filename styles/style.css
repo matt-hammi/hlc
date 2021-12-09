@@ -71,7 +71,6 @@ nav a:hover{
     width:100%;
     padding-left: 1em;
     padding-right: 1em;
-    margin-right: 1em
 }
 
 .main-p{
@@ -218,6 +217,7 @@ nav a:hover{
     color: #BAC9C4;
     background-color: rgba(56,50,53,.6);
     padding: 1em;
+    z-index: 1;
 }
 
 .about-p2{
@@ -291,4 +291,22 @@ h4{
 
 p{
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .main-grid{
+        display: block;
+    }
+
+    .brooke{
+        display: block;
+    }
+
+    #chairs-msg{
+        display: block;
+    }
+
+    footer{
+        display: block;
+    }
 }
