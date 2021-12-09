@@ -63,6 +63,8 @@ nav a:hover{
     text-align: center;
     background-color: rgba(255,255,255,.6);
     color: #3A5A40;
+    max-width: 90%;
+    margin: auto;
 }
 
 #hero-img{
@@ -97,6 +99,8 @@ nav a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: rgba(255,255,255,.15);
+    max-width: 90%;
+    margin: auto;
 }
 
 .about-img{
@@ -224,6 +228,7 @@ nav a:hover{
     border: 10px solid #BAC9C4;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #67A1E0;
+    border-radius: 20%;
 }
 
 .service-head{
