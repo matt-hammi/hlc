@@ -183,6 +183,8 @@ nav a:hover{
     text-align: center;
     background-color: rgba(255,255,255,.6);
     color: #3A5A40;
+    max-width: 90%;
+    margin: auto;
 }
 
 .hlc{
